@@ -9,11 +9,11 @@ The lab3_code.py has written all the classes you need to run this program. Insid
 The SI507_project1.py can tie the code in lab3_code.py into a Flask application. It will allow you to go to the routes at the specific paths and show the relevent result on the HTML page. Remember, if you are going to a route which is not defined in the program, you may run into error. So limit your routes in the following options, unless you want to add more routes yourself:
 
 1. / (home page)
-2. /bank/<name>
-3. /dollar/<amt>
-4. /yuan/<amt>
-5. /pound/<amt>
-6. /bank/<name>/<currency>/<value>
+2. /bank/"insert a name"
+3. /dollar/"insert amt"
+4. /yuan/"insert amt"
+5. /pound/"insert amt"
+6. /bank/"insert a name"/"insert a type of currency"/"insert a value"
 
 
 ## Dependencies the project relies on

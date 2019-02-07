@@ -1,5 +1,10 @@
 from flask import Flask
 from lab3_code import *
+# Structure:
+#First, Import statements necessary including flask and all objects from the lab3 code
+#Second, set upapplication
+#Third, start to route as required in the document provided by instructor
+#Finally, add if __name__ == "__main__": app.run()
 
 app = Flask(__name__)
 
